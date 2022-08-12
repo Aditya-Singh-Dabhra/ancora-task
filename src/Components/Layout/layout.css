@@ -1,0 +1,12 @@
+h1{
+    font-size: 32px;
+}
+
+.layout{
+    width: 100vw;
+}
+
+.main-content{
+    width: 100Vw;
+    height: calc(100vh - 80px);
+}

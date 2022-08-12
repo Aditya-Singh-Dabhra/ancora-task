@@ -1,0 +1,37 @@
+.header-wrapper{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 20%;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-badge{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.link-wrapper{
+    display: inline-block;
+    width: fit-content;
+    height:fit-content;
+    margin: 0 20px;
+}
+
+.link{
+    font-size: 1.5rem; 
+    cursor: pointer;
+}
